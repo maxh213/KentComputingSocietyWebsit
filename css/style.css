@@ -1,0 +1,41 @@
+@font-face {
+    font-family: ubuntu;
+    src: url(ubuntu-font-family-0.83/Ubuntu-L.ttf);
+}
+
+body {
+		color: #40ADFA;
+		background-color: #1C2A30;
+		/*comment the below if you don't wish to use the ubuntu font.
+		Only problem was I couldn't get the twitter widget thing to
+		adopt the font too so it looks a tiny bit off
+			
+		The default non-ubuntu font looks fine so no need to select another
+		*/
+		font-family: ubuntu;
+}
+
+h1 {
+	color: #61FCFA;
+	text-shadow: 1px 1px 20px #40ADFA;
+	font-weight: thin;
+
+}
+
+.button {
+	border-color: #61FCFA;
+	color: #40ADFA;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    border-color: #40ADFA;
+    color: #61FCFA;
+	text-shadow: 1px 1px 25px #40ADFA;
+}
+
+#twitter-widget-0 {
+	height: 38.5em !important;
+	width: 40em !important;
+}
